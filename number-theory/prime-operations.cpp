@@ -8,7 +8,7 @@ bool prime(int n){
 	for(int i = 2; i*i <= n; i++){
 		if(n%i == 0) return false;
 	}
- 
+
 	return true;
 }
 
@@ -21,6 +21,5 @@ int32_t main(){
 	cin >> n;
 
 	cout << (prime(n) ? "Yes": "No") << endl;
-
 	return 0;
 }
